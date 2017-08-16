@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EA735C315A8CABA01352CC5 /* Pods_test_ssl_pinning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D922B9EB4DED09175B79B22 /* Pods_test_ssl_pinning.framework */; };
+		D71A62561F445621000AEEC6 /* cert.cer in Resources */ = {isa = PBXBuildFile; fileRef = D71A62551F445621000AEEC6 /* cert.cer */; };
 		D7443ADC1F440A1500F4EDD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7443ADB1F440A1500F4EDD2 /* AppDelegate.swift */; };
 		D7443ADE1F440A1500F4EDD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7443ADD1F440A1500F4EDD2 /* ViewController.swift */; };
 		D7443AE11F440A1500F4EDD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7443ADF1F440A1500F4EDD2 /* Main.storyboard */; };
 		D7443AE31F440A1500F4EDD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7443AE21F440A1500F4EDD2 /* Assets.xcassets */; };
 		D7443AE61F440A1500F4EDD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7443AE41F440A1500F4EDD2 /* LaunchScreen.storyboard */; };
+		D7443AF01F44176200F4EDD2 /* corrupted.cer in Resources */ = {isa = PBXBuildFile; fileRef = D7443AEE1F44176200F4EDD2 /* corrupted.cer */; };
+		D7443AF11F44176200F4EDD2 /* github.com.cer in Resources */ = {isa = PBXBuildFile; fileRef = D7443AEF1F44176200F4EDD2 /* github.com.cer */; };
+		D7443AF31F4419E200F4EDD2 /* *.claimdi.com.cer in Resources */ = {isa = PBXBuildFile; fileRef = D7443AF21F4419E200F4EDD2 /* *.claimdi.com.cer */; };
+		D7443AF71F4422B100F4EDD2 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7443AF61F4422B100F4EDD2 /* BaseModel.swift */; };
+		D7C602D51F4441BA00CA890D /* *claimdicom-new.crt in Resources */ = {isa = PBXBuildFile; fileRef = D7C602D41F4441BA00CA890D /* *claimdicom-new.crt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33CB4FC0E089CCEE6BD63302 /* Pods-test-ssl-pinning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-ssl-pinning.release.xcconfig"; path = "Pods/Target Support Files/Pods-test-ssl-pinning/Pods-test-ssl-pinning.release.xcconfig"; sourceTree = "<group>"; };
+		7D922B9EB4DED09175B79B22 /* Pods_test_ssl_pinning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_ssl_pinning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2EBF536071CA222069AC96E /* Pods-test-ssl-pinning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-ssl-pinning.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test-ssl-pinning/Pods-test-ssl-pinning.debug.xcconfig"; sourceTree = "<group>"; };
+		D71A62551F445621000AEEC6 /* cert.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = cert.cer; sourceTree = "<group>"; };
 		D7443AD81F440A1500F4EDD2 /* test-ssl-pinning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-ssl-pinning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7443ADB1F440A1500F4EDD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7443ADD1F440A1500F4EDD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +33,11 @@
 		D7443AE21F440A1500F4EDD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7443AE51F440A1500F4EDD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7443AE71F440A1500F4EDD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7443AEE1F44176200F4EDD2 /* corrupted.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = corrupted.cer; sourceTree = "<group>"; };
+		D7443AEF1F44176200F4EDD2 /* github.com.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = github.com.cer; sourceTree = "<group>"; };
+		D7443AF21F4419E200F4EDD2 /* *.claimdi.com.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = "*.claimdi.com.cer"; sourceTree = "<group>"; };
+		D7443AF61F4422B100F4EDD2 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		D7C602D41F4441BA00CA890D /* *claimdicom-new.crt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "*claimdicom-new.crt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EA735C315A8CABA01352CC5 /* Pods_test_ssl_pinning.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		454C54D255E8746FEFDE78B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D922B9EB4DED09175B79B22 /* Pods_test_ssl_pinning.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D7443ACF1F440A1500F4EDD2 = {
 			isa = PBXGroup;
 			children = (
+				D7443AED1F44176200F4EDD2 /* Resources */,
 				D7443ADA1F440A1500F4EDD2 /* test-ssl-pinning */,
 				D7443AD91F440A1500F4EDD2 /* Products */,
+				FE17B9C046BF2339D679868C /* Pods */,
+				454C54D255E8746FEFDE78B1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +88,30 @@
 				D7443AE21F440A1500F4EDD2 /* Assets.xcassets */,
 				D7443AE41F440A1500F4EDD2 /* LaunchScreen.storyboard */,
 				D7443AE71F440A1500F4EDD2 /* Info.plist */,
+				D7443AF61F4422B100F4EDD2 /* BaseModel.swift */,
 			);
 			path = "test-ssl-pinning";
+			sourceTree = "<group>";
+		};
+		D7443AED1F44176200F4EDD2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D71A62551F445621000AEEC6 /* cert.cer */,
+				D7C602D41F4441BA00CA890D /* *claimdicom-new.crt */,
+				D7443AF21F4419E200F4EDD2 /* *.claimdi.com.cer */,
+				D7443AEE1F44176200F4EDD2 /* corrupted.cer */,
+				D7443AEF1F44176200F4EDD2 /* github.com.cer */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FE17B9C046BF2339D679868C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2EBF536071CA222069AC96E /* Pods-test-ssl-pinning.debug.xcconfig */,
+				33CB4FC0E089CCEE6BD63302 /* Pods-test-ssl-pinning.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +121,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7443AEA1F440A1500F4EDD2 /* Build configuration list for PBXNativeTarget "test-ssl-pinning" */;
 			buildPhases = (
+				135CA0CFA30AD684FD4CBA1B /* [CP] Check Pods Manifest.lock */,
 				D7443AD41F440A1500F4EDD2 /* Sources */,
 				D7443AD51F440A1500F4EDD2 /* Frameworks */,
 				D7443AD61F440A1500F4EDD2 /* Resources */,
+				1C0B393A0F72C0CC3707E749 /* [CP] Embed Pods Frameworks */,
+				B6CF01119981F68903DE737F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,19 +177,79 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7C602D51F4441BA00CA890D /* *claimdicom-new.crt in Resources */,
 				D7443AE61F440A1500F4EDD2 /* LaunchScreen.storyboard in Resources */,
+				D7443AF11F44176200F4EDD2 /* github.com.cer in Resources */,
+				D7443AF01F44176200F4EDD2 /* corrupted.cer in Resources */,
 				D7443AE31F440A1500F4EDD2 /* Assets.xcassets in Resources */,
 				D7443AE11F440A1500F4EDD2 /* Main.storyboard in Resources */,
+				D71A62561F445621000AEEC6 /* cert.cer in Resources */,
+				D7443AF31F4419E200F4EDD2 /* *.claimdi.com.cer in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		135CA0CFA30AD684FD4CBA1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-test-ssl-pinning-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C0B393A0F72C0CC3707E749 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-test-ssl-pinning/Pods-test-ssl-pinning-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test-ssl-pinning/Pods-test-ssl-pinning-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6CF01119981F68903DE737F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test-ssl-pinning/Pods-test-ssl-pinning-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D7443AD41F440A1500F4EDD2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7443AF71F4422B100F4EDD2 /* BaseModel.swift in Sources */,
 				D7443ADE1F440A1500F4EDD2 /* ViewController.swift in Sources */,
 				D7443ADC1F440A1500F4EDD2 /* AppDelegate.swift in Sources */,
 			);
@@ -257,6 +370,7 @@
 		};
 		D7443AEB1F440A1500F4EDD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2EBF536071CA222069AC96E /* Pods-test-ssl-pinning.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CZS5M9529T;
@@ -270,6 +384,7 @@
 		};
 		D7443AEC1F440A1500F4EDD2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33CB4FC0E089CCEE6BD63302 /* Pods-test-ssl-pinning.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CZS5M9529T;
@@ -300,6 +415,7 @@
 				D7443AEC1F440A1500F4EDD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,6 @@
+framework module Pods_test_ssl_pinning {
+  umbrella header "Pods-test-ssl-pinning-umbrella.h"
+
+  export *
+  module * { export * }
+}
